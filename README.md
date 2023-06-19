@@ -55,3 +55,8 @@ class FPS:
         cv2.putText(img, fps_text, (10, 20), font, 1.0, (240, 240, 240), 1, line)
         return img
 ```
+
+
+
+#### Colab에서 mediapipe의 hand_landmarks를 직접 확인하실 수 있습니다. 
+[go_to_ipynb](Hand_Detection.ipynb)
