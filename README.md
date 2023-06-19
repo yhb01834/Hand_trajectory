@@ -3,6 +3,7 @@
 손가락으로 1을 가리키면 궤적 그리기를 시작하고 5를 펼치면 멈추게 됩니다.
 
 [영상 속 코드](#ros_hand_trajectory.py)
+
 '''
 def vector_2d_angle(v1, v2):
     d_v1_v2 = np.linalg.norm(v1) * np.linalg.norm(v2)
@@ -13,7 +14,9 @@ def vector_2d_angle(v1, v2):
 
 def distance(point_1, point_2):
     return math.sqrt((point_1[0] - point_2[0]) ** 2 + (point_1[1] - point_2[1]) ** 2)
+'''
 
+'''
 #!/usr/bin/python3
 # coding=utf8
 import cv2
