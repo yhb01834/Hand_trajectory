@@ -4,11 +4,12 @@
 
 
 [영상 속 코드](ros_hand_trajectory.py)
+해당 코드를 돌리려면 ros 관련 파일들이 필요해 바로 확인하기는 어려울 것입니다.
+Colab에서 mediapipe의 hand_landmarks를 직접 확인하실 수 있습니다. 
+[go_to_ipynb](Hand_Detection.ipynb)
 
 
-
-
-
+다음은 추가적으로 필요한 라이브러리 내용입니다.
 
 #### from jetauto_sdk.common import vector_2d_angle, distance 
 ```
@@ -58,5 +59,3 @@ class FPS:
 
 
 
-#### Colab에서 mediapipe의 hand_landmarks를 직접 확인하실 수 있습니다. 
-[go_to_ipynb](Hand_Detection.ipynb)
