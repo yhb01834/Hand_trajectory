@@ -5,6 +5,7 @@
 
 [영상 속 코드](ros_hand_trajectory.py)
 해당 코드를 돌리려면 ros 관련 파일들이 필요해 바로 확인하기는 어려울 것입니다.
+</br>
 Colab에서 mediapipe의 hand_landmarks를 직접 확인하실 수 있습니다. 
 [go_to_ipynb](Hand_Detection.ipynb)
 
